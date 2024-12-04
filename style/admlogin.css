@@ -1,0 +1,154 @@
+/* ESTRUTURAÇÃO PÁGINA BODY */
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-color: #bdc3b0;
+    background: url('backgroundadm.png') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  /* DIVS FORMS LOGIN */
+  .wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #h2login {
+    font-family: "Montserrat alternates", sans-serif;
+  }
+  
+  /* CONTAINER INPUTS */
+  .container {
+    width: 100%;
+    max-width: 400px; 
+    height: auto; 
+    max-height: 395px;
+    font-family: "Montserrat alternates", sans-serif;
+    text-align: center;
+    color: white;
+    background-color: #023412;
+    border-radius: 6px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    padding: 20px; 
+    box-sizing: border-box; 
+  }
+  
+  /* INPUT BUTTON */
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    max-width: 100%; 
+    padding: 10px;
+    font-size: 16px;
+    border: 0.5px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+    margin: 10px 0; 
+    font-family: "Roboto", sans-serif;
+  }
+  
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    border-color: #2bd131;
+    background-color: #fff;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="password"] {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  /* LOGIN BUTTON */
+  #btnlogin {
+    font-family: "Montserrat alternates", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #f8f8f8;
+    width: 100%; 
+    border: 0;
+    padding: 5px;
+    color: #044606f3;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin: 15px 0; 
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+
+  a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Montserrat alternates", sans-serif;
+  }
+  
+  a:hover {
+    color: #07790b;
+  }
+
+  /* BOTÃO ADM */
+  #admbutton {
+    font-family: "Montserrat alternates", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #f8f8f8;
+    width: auto; 
+    min-width: 150px; 
+    border: 0;
+    padding: 3.5px 10px; 
+    color: #044606f3;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin: 15px; 
+    border-radius: 5px;
+    position: fixed;
+    bottom: 10px; 
+    right: 10px; 
+    text-align: center;  
+    font-weight: bold;
+  }
+  
+  #admbutton:hover {
+    background-color: #07790b;
+    color: #ffffff;
+  }
+  
+  #h3email, #h3senha {
+    font-family: "Montserrat alternates", sans-serif;
+    margin: 0;
+  }
+  
+  #btnlogin:hover {
+    background-color: #07790b;
+    color: #ffffff;
+  }
+  
+  
+  @media (max-width: 600px) {
+    .container {
+      width: 90%; 
+      max-width: 350px; 
+      padding: 20px; 
+      margin: 0 auto; 
+    }
+  
+  
+    #admbutton {
+      width: auto; 
+      min-width: 120px; 
+    }
+  }
+  

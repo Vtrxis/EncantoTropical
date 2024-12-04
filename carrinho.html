@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="style/carrinhoStyle.css">
+    <script src="scripts/carrinhoScripts.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header id="home">
+        <div class="container">
+            <div class="logo">
+                <img src="./imgs/logo.png" alt="Logo Encanto Tropical">
+            </div>
+        </div>
+    </header>
+
+    <section class="cart">
+        <h2>Carrinho de Compras</h2>
+        
+        <div class="cart-items">
+            <div class="cart-item">
+                <img src="./imgs/greengarden.png" alt="Vaso Green Garden" class="cart-item-img">
+                <div class="cart-item-details">
+                    <p class="cart-item-name">Vaso - Green Garden</p>
+                    <p class="cart-item-price">R$ 150,00</p>
+                    <div class="cart-item-quantity">
+                        <button class="decrease">-</button>
+                        <span>1</span>
+                        <button class="increase">+</button>
+                    </div>
+                </div>
+                <button class="remove-item">Remover</button>
+            </div>
+
+            <div class="cart-item">
+                <img src="./imgs/purpletropical.png" alt="Buquê Purple Tropical" class="cart-item-img">
+                <div class="cart-item-details">
+                    <p class="cart-item-name">Buquê - Purple Tropical</p>
+                    <p class="cart-item-price">R$ 180,00</p>
+                    <div class="cart-item-quantity">
+                        <button class="decrease">-</button>
+                        <span>1</span>
+                        <button class="increase">+</button>
+                    </div>
+                </div>
+                <button class="remove-item">Remover</button>
+            </div>
+        </div>
+
+        <div class="cart-total">
+            <p>Total: <span>R$ 330,00</span></p>
+        </div>
+
+        <div class="cart-actions">
+            <a href="homepage.html" class="continue-shopping">Continuar Comprando</a>
+            <button class="checkout">Finalizar Compra</button>
+        </div>
+    </section>
+</body>
+</html>
